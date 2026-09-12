@@ -4,7 +4,7 @@
 
 # @nestjstools/tags
 
-Collect NestJS providers marked with a tag and access their existing singleton instances as a group. It is useful for strategy, handler, plugin, and adapter patterns where one service selects from many implementations.
+`@nestjstools/tags` is a TypeScript library for NestJS provider discovery and dependency injection. Mark NestJS providers with a tag, then inject or look up their existing singleton instances as a group. It is useful for strategy, handler, plugin, registry, and adapter patterns where one service selects from many implementations.
 
 ## Install
 
@@ -167,3 +167,7 @@ export class PluginService {
 The registry is populated during Nest's application bootstrap. The injected array is therefore ready in request handlers and lifecycle hooks after bootstrap, but should not be consumed from the receiving service's constructor body.
 
 Tags represent existing Nest singleton instances; they do not create copies. Request-scoped and transient providers are not suitable for shared tagged collections.
+
+## Keywords
+
+NestJS, provider discovery, provider registry, dependency injection, tagged services, strategy pattern, plugin system.

@@ -2,10 +2,20 @@
   "name": "@nestjstools/tags",
   "version": "1.0.0",
   "description": "Decorator-based discovery and injection of tagged NestJS providers.",
+  "keywords": [
+    "nestjs",
+    "nest",
+    "nestjs-module",
+    "nestjs-plugin",
+    "nestjs-discovery",
+    "provider-discovery",
+    "provider-registry",
+    "dependency-injection"
+  ],
   "author": "Sebastian Iwanczyszyn",
   "license": "MIT",
   "type": "module",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "publishConfig": {
     "access": "public"
   },
