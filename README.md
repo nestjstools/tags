@@ -1,3 +1,7 @@
+<p align="center">
+    <image src="nestjstools-logo.png" width="400" alt="NestJSTools Logo" />
+</p>
+
 # @nestjstools/tags
 
 Collect NestJS providers marked with a tag and access their existing singleton instances as a group. It is useful for strategy, handler, plugin, and adapter patterns where one service selects from many implementations.
@@ -11,8 +15,6 @@ or
 ```bash
 yarn add @nestjstools/tags
 ```
-
-`@nestjs/common`, `@nestjs/core`, and `reflect-metadata` are peer dependencies and should be provided by the Nest application.
 
 ## What this solves
 
